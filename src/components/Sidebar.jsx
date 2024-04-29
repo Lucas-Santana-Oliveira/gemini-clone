@@ -36,11 +36,11 @@ const Sidebar = () => {
           }}
         >
           <Plus size={20} className="cursor-pointer text-softTextColor" />
-          {isOpen ? <p>New chat</p> : null}
+          {isOpen ? <p>Novo Conversa</p> : null}
         </div>
         {isOpen ? (
           <div className="flex flex-col">
-            <p className="mt-8 mb-5">Recent</p>
+            <p className="mt-8 mb-5">Recente</p>
             {prevPrompts?.map((item, index) => (
               <div
                 key={index}
@@ -60,11 +60,11 @@ const Sidebar = () => {
       <div className="flex flex-col gap-5">
         <div className="pr-2.5 cursor-pointer flex gap-2 text-gray-400 items-center">
           <CircleHelp size={20} className="text-softTextColor" />
-          {isOpen ? <p>Help</p> : null}
+          {isOpen ? <p>Ajuda</p> : null}
         </div>
         <div className="pr-2.5 cursor-pointer flex gap-2 text-gray-400 items-center">
           <Activity size={20} className="text-softTextColor" />
-          {isOpen ? <p>Activity</p> : null}
+          {isOpen ? <p>Atividades</p> : null}
         </div>
         <div className="pr-2.5 cursor-pointer flex gap-2 text-gray-400 items-center">
           <Settings size={20} className="text-softTextColor" />

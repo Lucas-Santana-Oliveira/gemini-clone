@@ -12,7 +12,7 @@ const ThemeToggle = () => {
     <Popover>
       <PopoverTrigger asChild>
         <p className="text-softTextColor" variant="outline">
-          Settings
+        Configurações
         </p>
       </PopoverTrigger>
       <PopoverContent className="w-44 bg-gray-700 border-none">

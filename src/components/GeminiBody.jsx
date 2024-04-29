@@ -32,35 +32,35 @@ const GeminiBody = () => {
             <div className="my-12 text-5xl font-medium p-5">
               <p>
                 <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-                  Hello, Mehtab kazmi
+                 Olâ, Seja Bem-Vindo!
                 </span>
               </p>
-              <p>How can I help you today?</p>
+              <p>Como eu posso ter ajudar hoje?</p>
             </div>
             <div className="grid grid-cols-4 gap-5 p-5">
               <div className="h-48 p-4 bg-bgSecondaryColor rounded-xl relative cursor-pointer">
-                <p>Suggest beautiful places to see on an upcoming road trip</p>
+                <p>Sugestão lugares bom para visitar?</p>
                 <Compass
                   size={35}
                   className="p-1 absolute bottom-2 right-2 bg-bgPrimaryColor text-softTextColor rounded-full"
                 />
               </div>
               <div className="h-48 p-4 bg-bgSecondaryColor rounded-xl relative cursor-pointer">
-                <p>What’s the reaction to and impact of autonomous vehicles</p>
+                <p>Qual é a reação e o impacto dos veículos autônomos?</p>
                 <Lightbulb
                   size={35}
                   className="p-1 absolute bottom-2 right-2 bg-bgPrimaryColor text-softTextColor rounded-full"
                 />
               </div>
               <div className="h-48 p-4 bg-bgSecondaryColor rounded-xl relative cursor-pointer">
-                <p>Come up with a recipe for an upcoming event</p>
+                <p>Crie uma receita para um próximo evento?</p>
                 <Youtube
                   size={35}
                   className="p-1 absolute bottom-2 right-2 bg-bgPrimaryColor text-softTextColor rounded-full"
                 />
               </div>
               <div className="h-48 p-4 bg-bgSecondaryColor rounded-xl relative cursor-pointer">
-                <p>Evaluate and rank common camera categories</p>
+                <p>Avalie e classifique categorias comuns de câmeras?</p>
                 <Code
                   size={35}
                   className="p-1 absolute bottom-2 right-2 bg-bgPrimaryColor text-softTextColor rounded-full"
@@ -91,7 +91,7 @@ const GeminiBody = () => {
                 value={input}
                 type="text"
                 className="flex-1 bg-transparent border-none outline-none p-2 text-md text-gray-400"
-                placeholder="Enter a prompt here"
+                placeholder="Digite sua pergunta ou comando"
               />
               <div className="flex cursor-pointer">
                 <SendHorizontal type="submit" size={20} />
@@ -99,8 +99,8 @@ const GeminiBody = () => {
             </div>
           </form>
           <p className="text-gray-400 text-sm text-center p-3">
-            Gemini may display inaccurate info, including about people, so
-            double-check its responses. Your privacy and Gemini Apps
+          Gemini pode exibir informações imprecisas, inclusive sobre pessoas, então
+            verifique novamente suas respostas. Sua privacidade e os aplicativos Gemini
           </p>
         </div>
       </div>
